@@ -14,11 +14,16 @@
     <title>Search Oppertuities</title>
     <style>
         body {
+            background-color: #9E1C35;
             padding: 10px;
         }
 
         .show-on-hover:hover > ul.dropdown-menu {
             display: block;
+        }
+
+        .row {
+            text-align: center;
         }
     </style>
 </head>
@@ -27,14 +32,15 @@
 
         <div class="container">
             <div class="row">
-                <div class="input-group">
+                <div class="col-lg-6 col-lg-offset-3">
+                    <div class="input-group">
+                        <input class="form-control " type="text" placeholder="Opportunities Title" />
 
-                    <input class="form-control " type="text" placeholder="Opportunities Title" />
-                    
-                    <input class="form-control " type="text" placeholder="Company Name" />
-                    
-                    <input class="form-control " type="text" placeholder="Location" />
+                        <input class="form-control " type="text" placeholder="Company Name" />
+
+                        <input class="form-control " type="text" placeholder="Location" />
                     </div>
+                    <br />
                     <!-- Our Special dropdown has class show-on-hover -->
                     <div class="btn-group show-on-hover">
                         <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
@@ -46,55 +52,51 @@
                             <li class="divider"></li>
                         </ul>
                     </div>
-          
-                <!-- Our Special dropdown has class show-on-hover -->
-                <div class="btn-group show-on-hover">
-                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                        Type of Work <span class="caret"></span>
-                    </button>
-                    <ul class="dropdown-menu" role="menu">
 
-                        <li><a href="#">Volunteer</a></li>
-                        <li><a href="#">Research</a></li>
-                        <li><a href="#">Internship</a></li>
-                        <li class="divider"></li>
-                    </ul>
+                    <!-- Our Special dropdown has class show-on-hover -->
+                    <div class="btn-group show-on-hover">
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                            Type of Work <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" role="menu">
+
+                            <li><a href="#">Volunteer</a></li>
+                            <li><a href="#">Research</a></li>
+                            <li><a href="#">Internship</a></li>
+                            <li class="divider"></li>
+                        </ul>
+                    </div>
+                    <!-- Our Special dropdown has class show-on-hover -->
+                    <div class="btn-group show-on-hover">
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                            Term <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" role="menu">
+
+                            <li><a href="#">Long Term</a></li>
+                            <li><a href="#">Short Term</a></li>
+                            <li class="divider"></li>
+                        </ul>
+                    </div>
+                    <!-- Our Special dropdown has class show-on-hover -->
+                    <div class="btn-group show-on-hover">
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                            Career Community <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" role="menu">
+
+                            <li><a href="#">Goverment</a></li>
+                            <li><a href="#">Legal</a></li>
+                            <li><a href="#">Non-profit</a></li>
+                            <li class="divider"></li>
+                        </ul>
+                    </div>
+                    <br />
+                    <br />
+                    <button class="btn btn-default" type="submit">Search</button>
                 </div>
-                      <!-- Our Special dropdown has class show-on-hover -->
-                <div class="btn-group show-on-hover">
-                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                        Term <span class="caret"></span>
-                    </button>
-                    <ul class="dropdown-menu" role="menu">
-
-                        <li><a href="#">Long Term</a></li>
-                        <li><a href="#">Short Term</a></li>
-                        <li class="divider"></li>
-                    </ul>
-                </div>
-                        <!-- Our Special dropdown has class show-on-hover -->
-                <div class="btn-group show-on-hover">
-                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                        Career Community <span class="caret"></span>
-                    </button>
-                    <ul class="dropdown-menu" role="menu">
-
-                        <li><a href="#">Goverment</a></li>
-                        <li><a href="#">Legal</a></li>
-                         <li><a href="#">Non-profit</a></li>
-                        <li class="divider"></li>
-                    </ul>
-                </div>
-
-</div>
-            
-            <button class="btn btn-default" type="submit">Search</button>
-
-          
+            </div>
         </div>
-      
-             
     </form>
-   
 </body>
 </html>
