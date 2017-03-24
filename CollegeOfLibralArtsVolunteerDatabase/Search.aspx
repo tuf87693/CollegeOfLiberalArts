@@ -15,7 +15,7 @@
     <style>
         body {
             background-color: #9E1C35;
-            padding: 10px;
+            padding-top: 60px;
         }
 
         .show-on-hover:hover > ul.dropdown-menu {
@@ -34,7 +34,7 @@
             <div class="row">
                 <div class="col-lg-6 col-lg-offset-3">
                     <div class="input-group">
-                        <input class="form-control " type="text" placeholder="Opportunities Title" />
+                        <input class="form-control " type="text" placeholder="Opportunity Title" />
 
                         <input class="form-control " type="text" placeholder="Company Name" />
 
