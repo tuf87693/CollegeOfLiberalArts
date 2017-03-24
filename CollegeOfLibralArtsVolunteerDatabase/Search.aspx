@@ -28,37 +28,73 @@
         <div class="container">
             <div class="row">
                 <div class="input-group">
-                    
+
                     <input class="form-control " type="text" placeholder="Opportunities Title" />
-                    <div class="input-group-btn">
-                       
-                    </div>
-                    <div class="input-group">
-                        <input class="form-control " type="text" placeholder="Company Name" />
-                        
+                    
+                    <input class="form-control " type="text" placeholder="Company Name" />
+                    
+                    <input class="form-control " type="text" placeholder="Location" />
                     </div>
                     <!-- Our Special dropdown has class show-on-hover -->
-                <div class="btn-group show-on-hover col-lg-5">
-                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                    Action <span class="caret"></span>
-                  </button>
-                  <ul class="dropdown-menu" role="menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li class="divider"></li>
-                  </ul>
+                    <div class="btn-group show-on-hover">
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                            Paid/Unpaid <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">Paid</a></li>
+                            <li><a href="#">Unpaid</a></li>
+                            <li class="divider"></li>
+                        </ul>
+                    </div>
+          
+                <!-- Our Special dropdown has class show-on-hover -->
+                <div class="btn-group show-on-hover">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                        Type of Work <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" role="menu">
+
+                        <li><a href="#">Volunteer</a></li>
+                        <li><a href="#">Research</a></li>
+                        <li><a href="#">Internship</a></li>
+                        <li class="divider"></li>
+                    </ul>
                 </div>
-                  
-            </div>
+                      <!-- Our Special dropdown has class show-on-hover -->
+                <div class="btn-group show-on-hover">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                        Term <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" role="menu">
+
+                        <li><a href="#">Long Term</a></li>
+                        <li><a href="#">Short Term</a></li>
+                        <li class="divider"></li>
+                    </ul>
+                </div>
+                        <!-- Our Special dropdown has class show-on-hover -->
+                <div class="btn-group show-on-hover">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                        Career Community <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" role="menu">
+
+                        <li><a href="#">Goverment</a></li>
+                        <li><a href="#">Legal</a></li>
+                         <li><a href="#">Non-profit</a></li>
+                        <li class="divider"></li>
+                    </ul>
+                </div>
+
+</div>
             
-	        
-                
-                    </div>     
-                     <button class="btn btn-default" type="submit">Search</button>
-           
-            
+            <button class="btn btn-default" type="submit">Search</button>
+
+          
         </div>
+      
+             
     </form>
+   
 </body>
 </html>
