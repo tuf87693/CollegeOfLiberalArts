@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Administrator Menu</title>
+    <title>CLAVDB: Home Page</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -38,7 +38,7 @@
         }
 
         footer {
-            background-color: #555;
+            background-color: black;
             color: white;
             padding: 15px;
             width: 100%;
@@ -59,7 +59,6 @@
     </style>
 </head>
 <body>
-
     <nav class="navbar navbar-inverse">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -68,7 +67,7 @@
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Main Menu</a></li>
+                    <li class="active"><a href="#">Home Page</a></li>
                     <li><a href="Search.aspx">Opportunities</a></li>
                     <li><a href="#">Contact Students</a></li>
                 </ul>
@@ -82,13 +81,11 @@
     <div class="container-fluid text-center">
         <div class="row content">
             <div class="col-sm-2 sidenav">
-                <p><a href="#">Test Link</a></p>
-                <p><a href="#">Test Link</a></p>
-                <p><a href="#">Test Link</a></p>
+                <h3>Recent Activity: </h3>
             </div>
             <div id="content" class="col-sm-8 text-left">
                 <h1>Welcome!</h1>
-                <p>This is the College of Liberal Arts Volunteer Database.</p>
+                <p>This is the College of Liberal Arts Volunteer Database</p>
                 <hr>
                 <h3>Features</h3>
                 <p>
@@ -103,16 +100,19 @@
                     <li>Print Opportunity Details</li>
                     <li>Email Opportunity Details to Specified Students</li>
                 </ul>
+                <hr>
+                <h3>Instructions</h3>
             </div>
             <div class="col-sm-2 sidenav">
-                
+                <h3>Quick Links: </h3>
+                <p><a href="#">Test Link</a></p>
+                <p><a href="#">Test Link</a></p>
+                <p><a href="#">Test Link</a></p>
             </div>
         </div>
     </div>
-
     <footer class="container-fluid text-center">
         <p>Designed for use by the College of Liberal Arts</p>
     </footer>
-
 </body>
 </html>
