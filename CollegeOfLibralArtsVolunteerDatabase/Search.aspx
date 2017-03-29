@@ -23,8 +23,8 @@
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">Home Page</a></li>
-                        <li><a href="Search.aspx">Volunteer Opportunity List</a></li>
+                        <li><a href="HomePage.aspx">Home Page</a></li>
+                        <li class="active"><a href="Search.aspx">Volunteer Opportunity List</a></li>
                         <li><a href="#">Contact Students</a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
