@@ -68,6 +68,7 @@
   <ItemGroup>
     <Content Include="Admin.aspx" />
     <Content Include="CSS\bootstrap.css" />
+    <Content Include="CSS\HomePageStyle.css" />
     <Content Include="CSS\Search.css" />
     <Content Include="images\logo.png" />
     <Content Include="packages.config" />

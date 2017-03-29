@@ -7,56 +7,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../CSS/HomePageStyle.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <style>
-        body {
-            background-color: #9E1C35;
-        }
-
-        #content {
-            color: white;
-        }
-
-        .navbar {
-            font-size: 16px;
-            padding-bottom: 34px;
-        }
-
-        .row.content {
-            height: 605px;
-        }
-
-        .row.content a {
-            color: black;
-        }
-
-        .sidenav {
-            padding-top: 20px;
-            background-color: #f1f1f1;
-            height: 100%;
-        }
-
-        footer {
-            background-color: black;
-            color: white;
-            padding: 15px;
-            width: 100%;
-            bottom: 0px;
-            position: fixed;
-        }
-
-        @media screen and (max-width: 767px) {
-            .sidenav {
-                height: auto;
-                padding: 15px;
-            }
-
-            .row.content {
-                height: auto;
-            }
-        }
-    </style>
+ 
 </head>
 <body>
     <nav class="navbar navbar-inverse">
