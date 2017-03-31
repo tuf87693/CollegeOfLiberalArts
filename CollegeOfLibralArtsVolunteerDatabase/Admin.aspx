@@ -25,7 +25,9 @@
         <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox></td>
   </tr>
   <tr>
-    <td>University name <br></td>
+    <td>University name <br>
+        <asp:Button ID="Button1" runat="server" Text="Button" />
+      </td>
     <td>
         <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox></td>
   </tr>
