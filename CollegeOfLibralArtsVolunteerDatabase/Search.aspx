@@ -43,6 +43,8 @@
                         <input class="form-control " type="text" placeholder="Company Name" />
 
                         <input class="form-control " type="text" placeholder="Location" />
+
+                        <input class="form-control " type="text" placeholder="Keyword" />
                     </div>
                     <br />
                     <!-- Our Special dropdown has class show-on-hover -->
