@@ -28,25 +28,18 @@
                         <li><a href="#">Contact Students</a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
 
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-lg-offset-3">
-                    <div class="input-group">
-                        <input class="form-control " type="text" placeholder="Opportunity Title" />
-
-                        <input class="form-control " type="text" placeholder="Company Name" />
-
-                        <input class="form-control " type="text" placeholder="Location" />
-
-                        <input class="form-control " type="text" placeholder="Keyword" />
-                    </div>
-                    <br />
+        <div class="container-fluid text-center">
+            <div class="row content">
+                <div class="col-sm-2 sidenav">
+                    <h3>Recent Activity: </h3>
+                </div>
+                <div class="col-lg-6 col-lg-offset-2">
                     <!-- Our Special dropdown has class show-on-hover -->
                     <div class="btn-group show-on-hover">
                         <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
@@ -97,12 +90,55 @@
                             <li class="divider"></li>
                         </ul>
                     </div>
+                    <br /><br />
+                    <div class="input-group">
+                        <input class="form-control " type="text" placeholder="Opportunity Title" />
+
+                        <input class="form-control " type="text" placeholder="Company Name" />
+
+                        <input class="form-control " type="text" placeholder="Location" />
+
+                        <input class="form-control " type="text" placeholder="Keyword" />
+                    </div>
                     <br />
-                    <br />
-                    <button class="btn btn-default" type="submit">Search</button>
+                    <button class="btn btn-default" type="submit">Search</button><br />
+                    <hr />
+                    <table class="table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Title</th>
+                                <th>Comapany</th>
+                                <th>Loation</th>
+                                <th>Work Type</th>
+                                <th>Career Community</th>
+                                <th>Notes</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Secretary</td>
+                                <td>City of Philadelphia</td>
+                                <td>City Hall</td>
+                                <td>Volunteer</td>
+                                <td>Government</td>
+                                <td><button class="btn btn-default">Notes</button></td>
+                            </tr>
+                            <tr>
+                                <td>High School Tutor</td>
+                                <td>The Work Group</td>
+                                <td>Marlton Pike</td>
+                                <td>Volunteer</td>
+                                <td>Education</td>
+                                <td><button class="btn btn-default">Notes</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
     </form>
+    <footer class="container-fluid text-center">
+        <p>Designed for use by the College of Liberal Arts</p>
+    </footer>
 </body>
 </html>
