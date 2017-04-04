@@ -8,9 +8,32 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
-    
-    </div>
+    <div class=""><table class="">
+  <tr>
+    <td>Name</td>
+    <td>
+        <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox></td>
+  </tr>
+  <tr>
+    <td>First Name<br></td>
+    <td>
+        <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox></td>
+  </tr>
+  <tr>
+    <td>Middle Name<br></td>
+    <td>
+        <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox></td>
+  </tr>
+  <tr>
+    <td>University name <br>
+        <asp:Button ID="Button1" runat="server" Text="Button" />
+      </td>
+    <td>
+        <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox></td>
+  </tr>
+</table></div>
+
+
     </form>
 </body>
 </html>
