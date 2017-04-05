@@ -70,7 +70,9 @@
     <Content Include="CSS\bootstrap.css" />
     <Content Include="CSS\HomePageStyle.css" />
     <Content Include="CSS\Search.css" />
+    <Content Include="images\DiamondPattern.png" />
     <Content Include="images\logo.png" />
+    <Content Include="images\TU_Dots_Red.png" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

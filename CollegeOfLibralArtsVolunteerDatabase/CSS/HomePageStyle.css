@@ -1,14 +1,21 @@
 ﻿body {
-    background-color: #9E1C35;
+    background-image: url(../images/DiamondPattern.png);
+    background-size: cover;
+    background-repeat: repeat-y;
 }
 
 #content {
-    color: white;
+    color: black;
+    background-color:ivory;
+    border: solid black 1px;
+}
+
+#btn {
+    margin-right: auto;
 }
 
 .navbar {
     font-size: 16px;
-    padding-bottom: 34px;
 }
 
 .row.content {
@@ -20,10 +27,33 @@
     }
 
 .sidenav {
+    background-color: ivory;
     padding-top: 20px;
-    background-color: #f1f1f1;
     height: 100%;
+    border: solid black 1px;
+    opacity: 0.6;
+}
+
+.sidenav:hover {
+    opacity: 1;
+}
+
+table {
+    color: black;
+    background-color: ivory;
     border: solid black 2px;
+}
+
+th {
+    padding: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+td {
+    padding: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 footer {
@@ -33,6 +63,52 @@ footer {
     width: 100%;
     bottom: 0px;
     position: fixed;
+}
+
+.show-on-hover:hover > ul.dropdown-menu {
+    display: block;
+}
+
+.row {
+    text-align: center;
+}
+
+#custom-search-input {
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+}
+
+    #custom-search-input .search-query {
+        padding-right: 3px;
+        padding-right: 4px \9;
+        padding-left: 3px;
+        padding-left: 4px \9;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+
+    #custom-search-input button {
+        border: 0;
+        background: none;
+        /** belows styles are working good */
+        padding: 2px 5px;
+        margin-top: 2px;
+        position: relative;
+        left: -28px;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        color: #D9230F;
+    }
+
+.search-query:focus + button {
+    z-index: 3;
 }
 
 @media screen and (max-width: 767px) {
