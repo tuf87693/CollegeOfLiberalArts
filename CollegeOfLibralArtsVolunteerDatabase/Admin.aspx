@@ -14,6 +14,8 @@
 
 </head>
 <body>
+ <form id="form1" runat="server">
+
     <nav class="navbar navbar-inverse">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -42,6 +44,7 @@
             <div id="" class="col-sm-8 text-left">
                 <h1>Welcome! Admin</h1>
                 <h2>Here you can Add,Disable,Update Oppertunities</h2>
+                 <button class="btn btn-default" type="submit">Add New Oppertunities</button><br />
             </div>
 
 
@@ -54,10 +57,7 @@
         </div>
     </div>
  
-    <form id="form1" runat="server">
-        <div id="content" class="col-sm-8 text-left">
-      
-        </div>
+    
 
 
     </form>
