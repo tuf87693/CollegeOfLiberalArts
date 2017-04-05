@@ -1,5 +1,5 @@
 ﻿body {
-    background-color: #9E1C35;
+    background-image: url(../images/DiamondPattern.png);
 }
 
 #content {
@@ -9,6 +9,7 @@
 .navbar {
     font-size: 16px;
     padding-bottom: 34px;
+    margin-bottom: 0px !important;
 }
 
 .row.content {

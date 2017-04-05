@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/bootstrap.css" />
-    <link href="CSS/Search.css" rel="stylesheet" />
+    <link href="CSS/HomePageStyle.css" rel="stylesheet" />
     <title>Search Opportunities</title>
 
 </head>
@@ -35,7 +35,7 @@
             </div>
         </nav>
 
-        <div class="container-fluid text-center">
+        <div class="container-fluid">
             <div class="row content">
                 <div class="col-sm-2 sidenav">
                     <h3>Recent Activity: </h3>
