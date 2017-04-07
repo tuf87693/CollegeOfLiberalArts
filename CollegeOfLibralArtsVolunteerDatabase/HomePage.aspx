@@ -27,7 +27,7 @@
                     <li><a href="#">Contact Students</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
                 </ul>
             </div>
         </div>
@@ -67,7 +67,7 @@
 
 
 
-        <div id="content" class="col-sm-3 text-left">
+        <div id="contentHome" class="col-sm-3 text-left">
             <div class="collapsed" data-toggle="collapse" data-target="#instructions">
                <!-- <h1>Welcome!</h1>
                 <p>This is the College of Liberal Arts Volunteer Database</p> -->
