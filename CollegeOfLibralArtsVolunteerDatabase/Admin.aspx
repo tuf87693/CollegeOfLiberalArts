@@ -41,13 +41,48 @@
             <div class="col-sm-2 sidenav">
                 <h3>Recent Activity: </h3>
             </div>
-            <div id="" class="col-sm-8 text-left">
+            <div id="content" class="col-sm-8 text-left">
                 <h1>Welcome! Admin</h1>
-                <h2>Here you can Add,Disable,Update Oppertunities</h2>
-                 <button class="btn btn-default" type="submit">Add New Oppertunities</button><br />
+                <h2>Here you can Add, Disable, and Update Oppertunities</h2>
+                <button class="btn btn-default" type="submit">Add New Oppertunities</button><br />
+                <hr />
+                <table class="table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Title</th>
+                                <th>Comapany</th>
+                                <th>Loation</th>
+                                <th>Work Type</th>
+                                <th>Career Community</th>
+                                <th>Notes</th>
+                                <th>Edit</th>
+                                <th>Disabled?</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Secretary</td>
+                                <td>City of Philadelphia</td>
+                                <td>City Hall</td>
+                                <td>Volunteer</td>
+                                <td>Government</td>
+                                <td><button class="btn btn-default">Notes</button></td>
+                                <td><button class="btn btn-default">Edit</button></td>
+                                <td><input type="checkbox" /></td>
+                            </tr>
+                            <tr>
+                                <td>High School Tutor</td>
+                                <td>The Work Group</td>
+                                <td>Marlton Pike</td>
+                                <td>Volunteer</td>
+                                <td>Education</td>
+                                <td><button class="btn btn-default">Notes</button></td>
+                                <td><button class="btn btn-default">Edit</button></td>
+                                <td><input type="checkbox" /></td>
+                            </tr>
+                        </tbody>
+                    </table><br />
             </div>
-
-
             <div class="col-sm-2 sidenav">
                 <h3>Quick Links: </h3>
                 <p><a href="#">Test Link</a></p>
@@ -56,10 +91,9 @@
             </div>
         </div>
     </div>
- 
-    
-
-
     </form>
+    <footer class="container-fluid text-center">
+        <p>Designed for use by the College of Liberal Arts</p>
+    </footer>
 </body>
 </html>

@@ -40,8 +40,9 @@
                 <div class="col-sm-2 sidenav">
                     <h3>Recent Activity: </h3>
                 </div>
-                <div class="col-lg-6 col-lg-offset-2">
+                <div id="content" class="col-sm-8 text-left">
                     <!-- Our Special dropdown has class show-on-hover -->
+                    <h3>Search Opportunities:</h3>
                     <div class="btn-group show-on-hover">
                         <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
                             Paid/Unpaid <span class="caret"></span>
@@ -133,7 +134,13 @@
                                 <td><button class="btn btn-default">Notes</button></td>
                             </tr>
                         </tbody>
-                    </table>
+                    </table><br />
+                </div>
+                <div class="col-sm-2 sidenav">
+                    <h3>Quick Links: </h3>
+                    <p><a href="#">Test Link</a></p>
+                    <p><a href="#">Test Link</a></p>
+                    <p><a href="#">Test Link</a></p>
                 </div>
             </div>
         </div>
