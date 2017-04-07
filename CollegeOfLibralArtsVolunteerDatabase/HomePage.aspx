@@ -68,7 +68,7 @@
 
 
         <div id="contentHome" class="col-sm-3 text-left">
-            <div class="collapsed" data-toggle="collapse" data-target="#instructions">
+            <div id="contentHeader" class="collapsed" data-toggle="collapse" data-target="#instructions">
                <!-- <h1>Welcome!</h1>
                 <p>This is the College of Liberal Arts Volunteer Database</p> -->
                 <h1 id="sysFeatures">System Features</h1><span class="glyphicon glyphicon-triangle-bottom"></span>

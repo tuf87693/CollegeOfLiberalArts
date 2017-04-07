@@ -19,6 +19,11 @@
     opacity: .8;
     padding: 5px;
     bottom: 200px;
+    font-size: 10px;
+}
+
+#contentHeader:hover {
+    cursor:pointer;
 }
 
 #btn {
@@ -31,6 +36,8 @@
 
 .row.content {
     height: 626px;
+    margin-right: 0px;
+    margin-left: 0px;
 }
 
     .row.content a {
@@ -186,14 +193,24 @@ footer {
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;
+    font-size: 1.25em;
+
 }
 
 #content:hover {
     opacity: 1;
 }
 
+.collapsed:hover {
+    cursor: pointer;
+}
+
 #sysFeatures {
     display: inline;
     padding-right: 5px;
     font-size: 2em;
+}
+
+#instructions {
+    font-size: 1.25em;
 }
