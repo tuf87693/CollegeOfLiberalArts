@@ -22,7 +22,8 @@
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="HomePage.aspx">Home Page</a></li>
-                    <li><a href="Search.aspx">Volunteer Opportunity List</a></li>
+                    <li><a href="Search.aspx">View Opportunities</a></li>
+                    <li><a href="Admin.aspx">Edit/Add Opportunities</a></li>
                     <li><a href="#">Contact Students</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
@@ -32,7 +33,7 @@
         </div>
     </nav>
 
-    <div class="container-fluid text-center">
+    <div class="container-fluid">
         <div class="row content">
             <div class="col-sm-2 sidenav">
                 <h3>Recent Activity: </h3>
