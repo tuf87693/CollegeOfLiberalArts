@@ -105,6 +105,7 @@
                     <br />
                     <button class="btn btn-default" type="submit">Search</button><br />
                     <hr />
+                    <h3>Opportunities:</h3>
                     <table class="table-bordered">
                         <thead>
                             <tr>
