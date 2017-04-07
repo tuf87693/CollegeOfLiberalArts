@@ -1,11 +1,4 @@
 ﻿body {
-<<<<<<< HEAD
-    background-color: #9E1C35;
-}
-
-#content {
-    color: white;
-=======
     background-image: url(../images/DiamondPattern.png);
     background-size: cover;
     background-repeat: repeat-y;
@@ -19,23 +12,14 @@
 
 #btn {
     margin-right: auto;
->>>>>>> refs/remotes/origin/master
 }
 
 .navbar {
     font-size: 16px;
-<<<<<<< HEAD
-    padding-bottom: 34px;
-}
-
-.row.content {
-    height: 605px;
-=======
 }
 
 .row.content {
     height: 626px;
->>>>>>> refs/remotes/origin/master
 }
 
     .row.content a {
@@ -43,11 +27,6 @@
     }
 
 .sidenav {
-<<<<<<< HEAD
-    padding-top: 20px;
-    background-color: #f1f1f1;
-    height: 100%;
-=======
     background-color: ivory;
     padding-top: 20px;
     height: 100%;
@@ -75,7 +54,6 @@ td {
     padding: 4px;
     padding-left: 10px;
     padding-right: 10px;
->>>>>>> refs/remotes/origin/master
 }
 
 footer {
@@ -87,8 +65,6 @@ footer {
     position: fixed;
 }
 
-<<<<<<< HEAD
-=======
 .show-on-hover:hover > ul.dropdown-menu {
     display: block;
 }
@@ -135,7 +111,6 @@ footer {
     z-index: 3;
 }
 
->>>>>>> refs/remotes/origin/master
 @media screen and (max-width: 767px) {
     .sidenav {
         height: auto;
@@ -145,8 +120,4 @@ footer {
     .row.content {
         height: auto;
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> refs/remotes/origin/master
