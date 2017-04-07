@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../CSS/HomePageStyle.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
- 
+
 </head>
 <body>
     <nav class="navbar navbar-inverse">
@@ -27,22 +27,55 @@
                     <li><a href="#">Contact Students</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <div class="container-fluid">
+    <div class="fullscreen-bg">
+        <video loop muted autoplay class="fullscreen-bg__video">
+            <source src="http://liberalarts.temple.edu/sites/liberalarts/files/TempleCLA_webvideos-083115.mp4" type="video/mp4" />
+            <source src="http://liberalarts.temple.edu/sites/liberalarts/files/TempleCLA_webvideos-08311.ogg" type="video/ogv">
+        </video>
+    </div>
+
+    <div class="container-fluid" id="homeBodyContainer">
         <div class="row content">
-            <div class="col-sm-2 sidenav">
+            <%--<div class="col-sm-2 sidenav">
                 <h3>Recent Activity: </h3>
+            </div>--%>
+
+            <div class="col-sm-7"></div>
+
+            <div id="templeCLA" class="col-sm-3">
+                <h2 class="textStroke">College of Liberal Arts</h2>
+                <div class="vdbBox">
+                    <h3 class="textStroke">Volunteer Database System</h3>
+                </div>
             </div>
-            <div id="content" class="col-sm-8 text-left">
-                <h1>Welcome!</h1>
-                <p>This is the College of Liberal Arts Volunteer Database</p>
+
+            <%--<div class="col-sm-2 sidenav">
+                <h3>Quick Links: </h3>
+                <p><a href="#">Test Link</a></p>
+                <p><a href="#">Test Link</a></p>
+                <p><a href="#">Test Link</a></p>
+            </div>--%>
+        </div>
+
+        <div class="col-sm-1"></div>
+
+
+
+        <div id="content" class="col-sm-3 text-left">
+            <div class="collapsed" data-toggle="collapse" data-target="#instructions">
+               <!-- <h1>Welcome!</h1>
+                <p>This is the College of Liberal Arts Volunteer Database</p> -->
+                <h1 id="sysFeatures">System Features</h1><span class="glyphicon glyphicon-triangle-bottom"></span>
+            </div>
+
+            <div id="instructions" class="collapse">
                 <hr>
-                <h3>Features</h3>
                 <p>
                     This system allows you to access, and manipulate a database of volunteer opportunities throughout
                     the Philadelphia area.  You are able to preform a variety of actions using this system, including:
@@ -58,14 +91,13 @@
                 <hr>
                 <h3>Instructions</h3>
             </div>
-            <div class="col-sm-2 sidenav">
-                <h3>Quick Links: </h3>
-                <p><a href="#">Test Link</a></p>
-                <p><a href="#">Test Link</a></p>
-                <p><a href="#">Test Link</a></p>
-            </div>
+
         </div>
+
+        <div class="col-sm-3"></div>
+
     </div>
+
     <footer class="container-fluid text-center">
         <p>Designed for use by the College of Liberal Arts</p>
     </footer>
