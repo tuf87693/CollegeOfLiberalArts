@@ -6,6 +6,13 @@
 }
 
 #content {
+    background-color: ivory;
+    border: solid black 2px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#contentHome {
     color: black;
     background-color:ivory;
     border: solid black 1px;
