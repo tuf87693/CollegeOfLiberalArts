@@ -35,7 +35,7 @@
         </div>
     </nav>
 
-    <div class="cornerBar"></div>
+    <div class="cornerBar col-s-10"></div>
 
     <div class="fullscreen-bg">
         <video loop muted autoplay class="fullscreen-bg__video">
@@ -53,7 +53,7 @@
 
             <div class="col-sm-4"></div>
 
-            <div id="templeCLA" class="col-sm-3 ">
+            <div id="templeCLA" class="col-sm-3 col-xs-8">
                 <h2 class="textStroke">College of Liberal Arts</h2>
                 <div class="vdbBox">
                     <h3 class="textStroke">Volunteer Database</h3>
@@ -70,7 +70,7 @@
             <div class="col-sm-1"></div>
 
             <div class="col-sm-8"></div>
-            <div class="col-sm-3">
+            <div class="col-sm-3 col-xs-10">
                 <div id="contentHome">
                     <div id="contentHeader" class="collapsed text-center" data-toggle="collapse" data-target="#instructions">
                         <!-- <h1>Welcome!</h1>

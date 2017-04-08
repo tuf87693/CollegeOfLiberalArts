@@ -132,16 +132,7 @@ footer {
     z-index: 3;
 }
 
-@media screen and (max-width: 767px) {
-    .sidenav {
-        height: auto;
-        padding: 15px;
-    }
 
-    .row.content {
-        height: auto;
-    }
-}
 
 .fullscreen-bg {
     position: fixed;
@@ -158,8 +149,12 @@ footer {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: auto;
     max-width:100%;
+}
+
+video {
+    object-fit: contain;
 }
 
 #homeBodyContainer {
@@ -252,7 +247,7 @@ div #instructions {
      display: inline;
 }
 
-span.glyphicon {
+.glyphicon-menu-hamburger{
     font-size: 1.5em;
 }
 
@@ -267,4 +262,39 @@ span.glyphicon {
     z-index: -1;
     opacity: .75;
     border-radius: 5px;
+}
+
+.glyphicon-log-in {
+    padding-right: 5px;
+    font-size: 1em;
+}
+
+@media screen and (max-width: 767px) {
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+
+    .row.content {
+        height: auto;
+    }
+
+    .cornerBar {
+    top: 7%;
+    left: 5%;
+    /*background: linear-gradient(to bottom, rgba(137, 145, 151, 1), rgba(137, 145, 151, 0));*/
+    background: linear-gradient(to bottom, rgba(34, 34, 34, 1), rgba(34, 34, 34, 0));
+    z-index: -1;
+    opacity: .75;
+    border-radius: 5px;
+    }
+
+    #contentHome {
+        max-width: 50%;
+        left: -50%;
+    }
+
+    #contentHome::before {
+
+    }
 }
