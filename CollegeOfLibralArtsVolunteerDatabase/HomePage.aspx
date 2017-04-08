@@ -48,7 +48,7 @@
 
             <div class="col-sm-7"></div>
 
-            <div id="templeCLA" class="col-sm-3">
+            <div id="templeCLA" class="col-sm-3 ">
                 <h2 class="textStroke">College of Liberal Arts</h2>
                 <div class="vdbBox">
                     <h3 class="textStroke">Volunteer Database System</h3>
