@@ -3,6 +3,7 @@
     background-color: #a41e35;
     background-size: cover;
     background-repeat: repeat-y;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #content {
@@ -13,13 +14,14 @@
 }
 
 #contentHome {
-    color: black;
-    background-color:ivory;
+    color: white;
+    background-color: black;
     border: solid black 1px;
     opacity: .8;
     padding: 5px;
     bottom: 200px;
     font-size: 10px;
+    border-radius: 7px;
 }
 
 #contentHeader:hover {
@@ -75,7 +77,7 @@ td {
 }
 
 footer {
-    background-color: black;
+    background-color: #222222;
     color: white;
     padding: 15px;
     width: 100%;
@@ -88,9 +90,9 @@ footer {
     display: block;
 }
 
-.row {
+/*.row {
     text-align: center;
-}
+}*/
 
 #custom-search-input {
     margin: 0;
@@ -165,31 +167,43 @@ footer {
 }
 
 #templeCLA {
-    font-family: "Roboto Condensed",sans-serif;
-    background-color: black;
-    opacity: .85;
+    /*background-color: black;*/
+    opacity: 1;
     text-align: right;
     padding: 2px;
-    color: white;
+    color: #ffffff;
     /*width: 400px;*/
 }
 
 #templeCLA > h2, h3 {
     margin: 0px;
-    opacity: .8;  
+    opacity: .8;
+    font-size: 25px;
+    padding-right: 10px;
 }
 
 #templeCLA > h2 {
     text-align: left;
-    color: white;
+    color: #ffffff;
+    font-size: 35px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 2px;
 }
 
-.vdbBox {
+
+.lightRed {
+    color: #ee2738;
+}
+
+h3.textStroke {
     /*background-color: black;
     width: 20%;*/
-    background-color: transparent;
-    opacity: 1;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    
 }
+
 
 .textStroke {
     text-shadow:
@@ -197,7 +211,15 @@ footer {
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;
+    background-color: black;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    border-top-right-radius: 0px;
+}
 
+h2.textStroke {
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
 }
 
 #content:hover {
@@ -214,6 +236,25 @@ footer {
     font-size: 2em;
 }
 
+h1 #sysFeatures {
+    text-align: center;
+    display: inline;
+}
+
 #instructions {
     font-size: 1.25em;
+    text-align: left;
+}
+
+div #instructions {
+    text-align:left;
+}
+
+.hamburgerIcon {
+     color:#ee2738;
+     display: inline;
+}
+
+span.glyphicon {
+    font-size: 1.5em;
 }
