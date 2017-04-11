@@ -1,13 +1,31 @@
 ﻿body {
     background-image: url(../images/DiamondPattern.png);
+    background-color: #a41e35;
     background-size: cover;
     background-repeat: repeat-y;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #content {
-    color: black;
-    background-color:ivory;
+    background-color: ivory;
     border: solid black 1px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#contentHome {
+    color: white;
+    background-color: #8c2132;
+    border: solid black 1px;
+    opacity: .95;
+    padding: 5px;
+    bottom: 200px;
+    font-size: 10px;
+    border-radius: 7px;
+}
+
+#contentHeader:hover {
+    cursor:pointer;
 }
 
 #btn {
@@ -20,6 +38,8 @@
 
 .row.content {
     height: 626px;
+    margin-right: 0px;
+    margin-left: 0px;
 }
 
     .row.content a {
@@ -41,7 +61,7 @@
 table {
     color: black;
     background-color: ivory;
-    border: solid black 2px;
+    border: solid black 1px;
 }
 
 th {
@@ -57,21 +77,22 @@ td {
 }
 
 footer {
-    background-color: black;
+    background-color: #222222;
     color: white;
     padding: 15px;
     width: 100%;
     bottom: 0px;
     position: fixed;
+    margin: 0px;
 }
 
 .show-on-hover:hover > ul.dropdown-menu {
     display: block;
 }
 
-.row {
+/*.row {
     text-align: center;
-}
+}*/
 
 #custom-search-input {
     margin: 0;
@@ -111,6 +132,143 @@ footer {
     z-index: 3;
 }
 
+
+
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    max-width:100%;
+}
+
+video {
+    object-fit: contain;
+}
+
+#homeBodyContainer {
+    padding: 0px;
+}
+
+#templeCLA {
+    /*background-color: black;*/
+    opacity: 1;
+    text-align: left;
+    padding: 2px;
+    color: #ffffff;
+    /*width: 400px;*/
+}
+
+#templeCLA > h2, h3 {
+    margin: 0px;
+    opacity: 1;
+    font-size: 25px;
+}
+
+#templeCLA > h2 {
+    text-align: left;
+    color: #ffffff;
+    font-size: 35px;
+    padding-bottom: 5px;
+    padding-top: 2px;
+}
+
+
+.lightRed {
+    color: #ee2738;
+}
+
+h3.textStroke {
+    /*background-color: black;*/
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    
+}
+
+
+.textStroke {
+    /*text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;*/
+    background-color: transparent;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    border-top-right-radius: 0px;
+}
+
+h2.textStroke {
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+#content:hover {
+    opacity: 1;
+}
+
+.collapsed:hover {
+    cursor: pointer;
+}
+
+#sysFeatures {
+    display: inline;
+    padding-right: 5px;
+    font-size: 2em;
+}
+
+h1 #sysFeatures {
+    text-align: center;
+    display: inline;
+}
+
+#instructions {
+    font-size: 1.25em;
+    text-align: left;
+}
+
+div #instructions {
+    text-align:left;
+}
+
+.hamburgerIcon {
+     color:#ffffff;
+     display: inline;
+}
+
+.glyphicon-menu-hamburger{
+    font-size: 1.5em;
+}
+
+.cornerBar {
+    position: absolute;
+    right: 8.3%;
+    height: 135px;
+    top: 7%;
+    width: 25%;
+    /*background: linear-gradient(to bottom, rgba(137, 145, 151, 1), rgba(137, 145, 151, 0));*/
+    background: linear-gradient(to bottom, rgba(34, 34, 34, 1), rgba(34, 34, 34, 0));
+    z-index: -1;
+    opacity: .75;
+    border-radius: 5px;
+}
+
+.glyphicon-log-in {
+    padding-right: 5px;
+    font-size: 1em;
+}
+
 @media screen and (max-width: 767px) {
     .sidenav {
         height: auto;
@@ -119,5 +277,24 @@ footer {
 
     .row.content {
         height: auto;
+    }
+
+    .cornerBar {
+    top: 7%;
+    left: 5%;
+    /*background: linear-gradient(to bottom, rgba(137, 145, 151, 1), rgba(137, 145, 151, 0));*/
+    background: linear-gradient(to bottom, rgba(34, 34, 34, 1), rgba(34, 34, 34, 0));
+    z-index: -1;
+    opacity: .75;
+    border-radius: 5px;
+    }
+
+    #contentHome {
+        max-width: 50%;
+        left: -50%;
+    }
+
+    #contentHome::before {
+
     }
 }
