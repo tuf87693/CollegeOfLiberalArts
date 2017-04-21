@@ -97,9 +97,15 @@
                             <li>Attach Notes to Selected Opportunities</li>
                             <li>Print Opportunity Details</li>
                             <li>Email Opportunity Details to Specified Students</li>
+                            <li>Manage Users</li>
                         </ul>
                         <hr>
                         <h4>Instructions:</h4>
+                        <ul>
+                            <li>Q: How to insert new Opportunities ?</li>
+                            <li>A: Go to Edit/add Opportunities Page and then fill out the information and click Add New Opportunities</li>
+
+                        </ul>
                     </div>
 
                 </div>
