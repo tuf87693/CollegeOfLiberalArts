@@ -24,9 +24,12 @@
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="HomePage.aspx">Home Page</a></li>
-                    <li><a href="Search.aspx">View Opportunities</a></li>
-                    <li><a href="Admin.aspx">Edit/Add Opportunities</a></li>
-                    <li><a href="#">Contact Students</a></li>
+                           <li><a href="HomePage.aspx">Home Page</a></li>
+                        <li class="active"><a href="Search.aspx">View Opportunities</a></li>
+                        <li><a href="Admin.aspx">Edit/Add Opportunities</a></li>
+                        <li><a href="#">Contact Students</a></li>
+                        <li><a href="FAQ.aspx">FAQ</a></li>
+                        <li><a href="SuperAdmin.aspx">Super Admin</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>
@@ -97,9 +100,15 @@
                             <li>Attach Notes to Selected Opportunities</li>
                             <li>Print Opportunity Details</li>
                             <li>Email Opportunity Details to Specified Students</li>
+                            <li>Manage Users</li>
                         </ul>
                         <hr>
                         <h4>Instructions:</h4>
+                        <ul>
+                            <li>Q: How to insert new Opportunities ?</li>
+                            <li>A: Go to Edit/add Opportunities Page and then fill out the information and click Add New Opportunities</li>
+
+                        </ul>
                     </div>
 
                 </div>
