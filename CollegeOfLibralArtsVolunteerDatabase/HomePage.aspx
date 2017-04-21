@@ -103,30 +103,17 @@
                         </ul>
                         <hr>
                         <h4>Instructions:</h4>
-                        <ul>
-                            <li>Q: How to insert new Opportunities ?</li>
-                            <li>A: Go to Edit/add Opportunities Page and then fill out the information and click Add New Opportunities</li>
-
-                        </ul>
+                        <p>
+                            The navigation bar above will guide you through the system, if you have any other questions look at 
+                            the FAQ page located <a href="FAQ.aspx">here.</a>
+                        </p>
                     </div>
 
                 </div>
 
             </div>
-
-
-
-
-
-
-
-
-
         </div>
     </div>
-
-   
-
     <footer class="container-fluid text-center">
         <p>Designed for use by the College of Liberal Arts</p>
     </footer>
