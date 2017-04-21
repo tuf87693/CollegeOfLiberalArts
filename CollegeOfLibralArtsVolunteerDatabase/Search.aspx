@@ -87,10 +87,16 @@
                             Career Community <span class="caret"></span>
                         </button>
                         <ul class="dropdown-menu" role="menu">
-
+                            <li><a href="#">Arts</a></li>
+                            <li><a href="#">Business</a></li>
+                            <li><a href="#">Communications</a></li>
+                            <li><a href="#">Education</a></li>
                             <li><a href="#">Goverment</a></li>
+                            <li><a href="#">Health/Human Services</a></li>
+                            <li><a href="#">Hospitality</a></li>
                             <li><a href="#">Legal</a></li>
                             <li><a href="#">Non-profit</a></li>
+                            <li><a href="#">Marketing</a></li>
                             <li class="divider"></li>
                         </ul>
                     </div>
