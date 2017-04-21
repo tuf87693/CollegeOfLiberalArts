@@ -10,14 +10,28 @@
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link href="CSS/HomePageStyle.css" rel="stylesheet" />
     <title>Super Admin</title>
-<style>
-    
-     /*background-image: url(../images/DiamondPattern.png);*/
-</style>
+    <style>
+        /*background-image: url(../images/DiamondPattern.png);*/
+         
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 60px;
+            height: 34px;
+        }
+          /* Rounded sliders */
+        .slider.round {
+            border-radius: 34px;
+        }
+
+            .slider.round:before {
+                border-radius: 50%;
+            }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
-      <nav class="navbar navbar-inverse">
+        <nav class="navbar navbar-inverse">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <a class="navbar-brand" href="HomePage.aspx">
@@ -25,7 +39,7 @@
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav">
-                              <li><a href="HomePage.aspx">Home Page</a></li>
+                        <li><a href="HomePage.aspx">Home Page</a></li>
                         <li class="active"><a href="Search.aspx">View Opportunities</a></li>
                         <li><a href="Admin.aspx">Edit/Add Opportunities</a></li>
                         <li><a href="#">Contact Students</a></li>
@@ -33,15 +47,86 @@
                         <li><a href="SuperAdmin.aspx">Super Admin</a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
+        <div class="container">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="container-fluid">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">Manage Users Priviliges</div>
+                            <div class="panel-body">
+                                <div class="col-md-4">
+                                    <h3>System Users</h3>
 
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th>Admin Name</th>
+                                                <th>Insert</th>
+                                                <th>Update</th>
+                                                <th>Disable</th>
 
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Arpan</td>
 
+                                                <td>
+                                                    <label class="switch">
+                                                        <input type="checkbox" checked>
+                                                        <div class="slider round"></div>
+                                                    </label>
+                                                </td>
+                                                <td>
+                                                    <label class="switch">
+                                                        <input type="checkbox" checked>
+                                                        <div class="slider round"></div>
+                                                    </label>
+                                                </td>
+                                                <td>
+                                                    <label class="switch">
+                                                        <input type="checkbox" checked>
+                                                        <div class="slider round"></div>
+                                                    </label>
+                                                </td>
+                                            </tr>
+                                            <tr>
 
+                                                <td>Tia</td>
+
+                                                <td>
+                                                    <label class="switch">
+                                                        <input type="checkbox" checked>
+                                                        <div class="slider round"></div>
+                                                    </label>
+                                                </td>
+                                                <td>
+                                                    <label class="switch">
+                                                        <input type="checkbox" checked>
+                                                        <div class="slider round"></div>
+                                                    </label>
+                                                </td>
+                                                <td>
+                                                    <label class="switch">
+                                                        <input type="checkbox" checked>
+                                                        <div class="slider round"></div>
+                                                    </label>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
     </form>
 </body>
 </html>
