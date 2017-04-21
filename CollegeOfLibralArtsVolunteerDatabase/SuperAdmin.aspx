@@ -40,11 +40,11 @@
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav">
                         <li><a href="HomePage.aspx">Home Page</a></li>
-                        <li class="active"><a href="Search.aspx">View Opportunities</a></li>
+                        <li><a href="FAQ.aspx">FAQ</a></li>
+                        <li><a href="Search.aspx">View Opportunities</a></li>
                         <li><a href="Admin.aspx">Edit/Add Opportunities</a></li>
                         <li><a href="#">Contact Students</a></li>
-                        <li><a href="FAQ.aspx">FAQ</a></li>
-                        <li><a href="SuperAdmin.aspx">Super Admin</a></li>
+                        <li class="active"><a href="SuperAdmin.aspx">Manage Admins</a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="#"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>
@@ -98,6 +98,29 @@
                                             <tr>
 
                                                 <td>Tia</td>
+
+                                                <td>
+                                                    <label class="switch">
+                                                        <input type="checkbox" checked>
+                                                        <div class="slider round"></div>
+                                                    </label>
+                                                </td>
+                                                <td>
+                                                    <label class="switch">
+                                                        <input type="checkbox" checked>
+                                                        <div class="slider round"></div>
+                                                    </label>
+                                                </td>
+                                                <td>
+                                                    <label class="switch">
+                                                        <input type="checkbox" checked>
+                                                        <div class="slider round"></div>
+                                                    </label>
+                                                </td>
+                                            </tr>
+                                            <tr>
+
+                                                <td>Nick</td>
 
                                                 <td>
                                                     <label class="switch">
