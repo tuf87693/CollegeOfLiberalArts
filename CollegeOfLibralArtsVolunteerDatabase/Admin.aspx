@@ -25,11 +25,11 @@
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav">
                         <li><a href="HomePage.aspx">Home Page</a></li>
+                        <li><a href="FAQ.aspx">FAQ</a></li>
                         <li><a href="Search.aspx">View Opportunities</a></li>
                         <li class="active"><a href="Admin.aspx">Edit/Add Opportunities</a></li>
                         <li><a href="#">Contact Students</a></li>
-                        <li><a href="FAQ.aspx">FAQ</a></li>
-                        <li><a href="SuperAdmin.aspx">Super Admin</a></li>
+                        <li><a href="SuperAdmin.aspx">Manage Admins</a></li>
                         
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
