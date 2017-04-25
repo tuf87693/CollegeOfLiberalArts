@@ -144,8 +144,12 @@
                                         </tbody>
                                     </table>
                                 </div>
+
                             </div>
+                        <button class="btn btn-default" type="submit">Search</button><br />
+
                         </div>
+                        
                     </div>
 
                 </div>

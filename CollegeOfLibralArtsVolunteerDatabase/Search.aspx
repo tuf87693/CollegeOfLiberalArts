@@ -111,7 +111,7 @@
                         <input class="form-control " type="text" placeholder="Keyword" />
                     </div>
                     <br />
-                    <button class="btn btn-default" type="submit">Search</button><br />
+                <button class="btn btn-default" type="submit">Submit</button><br />
                     <hr />
                     <h3>Opportunities:</h3>
                     <table class="table-bordered">
