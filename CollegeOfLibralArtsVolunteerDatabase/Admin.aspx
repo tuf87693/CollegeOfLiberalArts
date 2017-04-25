@@ -44,6 +44,7 @@
                 <div class="col-sm-2 sidenav">
                     <h3>Recent Activity: </h3>
                 </div>
+
                 <div id="content" class="col-sm-8 text-left">
                     <h1>Welcome! Admin</h1>
                     <p>Here you can Add, Disable, and Update Oppertunities</p>

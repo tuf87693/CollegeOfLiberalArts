@@ -146,7 +146,7 @@
                                 </div>
 
                             </div>
-                        <button class="btn btn-default" type="submit">Search</button><br />
+                        <button class="btn btn-default" type="submit">Submit</button><br />
 
                         </div>
                         

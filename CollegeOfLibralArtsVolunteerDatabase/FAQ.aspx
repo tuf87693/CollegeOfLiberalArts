@@ -36,7 +36,24 @@
                     </ul>
                 </div>
             </div>
+
         </nav>
+         <div id="content" class="col-sm-8 text-center">
+                    <h1>Frequently Asked Question</h1>
+             <h2>Sample FAQ</h2>
+             <p>Question : How to insert new opportunities ?</p>
+             <p>Answer: coming soon</p>
+             <p>Question : How to update exsiting opportunities?</p>
+             <p>Answer: coming soon</p>
+             <p>Question : How to disable existing opportunities</p>      
+             <p>Answer: coming soon</p>       
+             <p>Question : How to disable existing admin?</p> 
+             <p>Answer: coming soon</p>       
+             <p>Question : How to add new admin?</p> 
+             <p>Answer: coming soon</p>
+             <p>Question : How to edit existing admin role?</p> 
+             <p>Answer: coming soon</p>
+         </div>
          
     </form>
     <footer class="container-fluid text-center">
