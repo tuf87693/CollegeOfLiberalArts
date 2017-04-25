@@ -38,7 +38,8 @@
             </div>
 
         </nav>
-         <div id="content" class="col-sm-8 text-center">
+        <div class="row justify-content-center">
+         <div id="content" class="col-sm-8 text-left">
                     <h1>Frequently Asked Question</h1>
              <h2>Sample FAQ</h2>
              <p>Question : How to insert new opportunities ?</p>
@@ -54,7 +55,7 @@
              <p>Question : How to edit existing admin role?</p> 
              <p>Answer: coming soon</p>
          </div>
-         
+         </div>
     </form>
     <footer class="container-fluid text-center">
         <p>Designed for use by the College of Liberal Arts</p>
