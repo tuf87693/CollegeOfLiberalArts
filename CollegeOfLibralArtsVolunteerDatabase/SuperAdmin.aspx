@@ -144,8 +144,12 @@
                                         </tbody>
                                     </table>
                                 </div>
+
                             </div>
+                        <button class="btn btn-default" type="submit">Submit</button><br />
+
                         </div>
+                        
                     </div>
 
                 </div>
